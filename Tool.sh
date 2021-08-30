@@ -25,8 +25,8 @@ echo 硬盤Disk:
 df -h
 echo ------------------------------------------
 echo ------------------------------------------
-echo 網速speedtest-cli: 
-curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+echo 網速speedtest: 
+speedtest
 echo ------------------------------------------
 echo ------------------------------------------
 echo 服務器位置 Location:
