@@ -7,6 +7,8 @@ echo --50%--
 sudo apt update > /dev/null 2>&1
 echo --75%--
 sudo apt-get install python > /dev/null 2>&1
+curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
+sudo apt-get install speedtest
 echo --100%--
 echo 安裝完成, Install Completed.
 echo ------------------------------------------
